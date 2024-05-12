@@ -24,19 +24,21 @@ DVC Integration:
 I used DVC to keep track of our data for version control and reproducibility. We set up Google Drive as our remote storage.
 
 Challenges
-Data Access Issues:
+- Data Access Issues:
 Sometimes, I had trouble accessing data from certain websites because their structure was inconsistent. I made sure our plan could handle these problems by implementing error handling and retries.
 
-Environment Setup:
+- Environment Setup:
 Getting Airflow to work properly on Windows was tricky. I solved this by using WSL2, which makes Windows act like a different type of computer that works better with Airflow.
 
-MLOps Project: ETL with Airflow and DVC
-Overview
+
+- Overview
 I created a special process to collect, clean, and store data. We used Airflow to manage this process and DVC to keep track of our data.
 
-Setup Instructions
+- Setup Instructions
 Step 1. Clone the repository and install dependencies:
-bash git clone https://github.com/muneeba-aftab/i202656-MLOPs-Assignment-2.git cd i202656-MLOPs-Assignment-2 pip install -r requirements.txt
+bash git clone https://github.com/MuhammadAhsan-DataScientist/i201787_MLOPs_Assignment-2.git
+cd i201787_MLOPs_Assignment-2
+pip install -r requirements.txt
 
 Step 2. Initializing Airflow:
 bash airflow db init
