@@ -17,7 +17,7 @@ After cleaning up the articles, I saved them to a JSON file. This makes it easy 
 - Finally, I sent data to the place we set up in step 3 by typing dvc push.
 
 
-- Workflow and Challenges
+## Workflow and Challenges
 
 Workflow
 Airflow DAG:
@@ -34,7 +34,7 @@ Sometimes, I had trouble accessing data from certain websites because their stru
 Getting Airflow to work properly on Windows was tricky. I solved this by using WSL2, which makes Windows act like a different type of computer that works better with Airflow.
 
 
-- Overview
+## Overview of Project
 I created a special process to collect, clean, and store data. We used Airflow to manage this process and DVC to keep track of our data.
 
 - Setup Instructions
